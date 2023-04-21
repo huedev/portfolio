@@ -14,7 +14,7 @@ export default function Home({ projects }: Props) {
   return (
     <>
       <Head>
-        <title>Zachary Hewlett's Portfolio</title>
+        <title>Zachary Hewlett&apos;s Portfolio</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
@@ -30,7 +30,7 @@ export default function Home({ projects }: Props) {
           />
           <div>
             <p className="my-6">
-              Hi, I'm Zach. I'm a developer with over 4 years of experience in building web applications and static sites.
+              Hi, I&apos;m Zach. I&apos;m a developer with over 4 years of experience in building web applications and static sites.
               I appreciate the importance of writing clear technical documentation.
             </p>
             <p className="my-6">
