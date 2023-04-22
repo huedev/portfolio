@@ -1,4 +1,7 @@
-import { ProjectType } from '../interfaces'
+import { ProjectType } from '@/interfaces'
+import huedevLogo from '@/public/images/huedev.png'
+import matchingLogo from '@/public/images/matching.png'
+import textboxLogo from '@/public/images/textbox.png'
 
 export const projectData: ProjectType[] = [
   {
@@ -8,9 +11,10 @@ export const projectData: ProjectType[] = [
     skills: [
       'React',
       'Next.js',
-      'JavaScript',
+      'Tailwind CSS',
     ],
     link: 'https://huedev.me/',
+    logo: huedevLogo,
   },
   {
     id: 1,
@@ -20,8 +24,10 @@ export const projectData: ProjectType[] = [
       'React',
       'Next.js',
       'TypeScript',
+      'Tailwind CSS',
     ],
     link: 'https://matching.huedev.me/',
+    logo: matchingLogo,
   },
   {
     id: 2,
@@ -30,8 +36,9 @@ export const projectData: ProjectType[] = [
     skills: [
       'React',
       'Create React App',
-      'JavaScript',
+      'Tailwind CSS',
     ],
     link: 'https://textbox.huedev.me/',
+    logo: textboxLogo,
   },
 ]
