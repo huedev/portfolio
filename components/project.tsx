@@ -22,7 +22,7 @@ export default function Project({ data }: Props) {
         <div className="flex flex-col">
           <h3 className="font-semibold text-gray-950 dark:text-white">{data.name}</h3>
           <p className="mt-1">{data.description}</p>
-          <ul className="mt-2 flex flex-wrap gap-3">
+          <ul className="mt-2 flex flex-wrap gap-2 sm:gap-3">
             {data.skills.map((skill, index) => (
               <li key={index} className="inline-flex text-sm px-3 py-1 rounded-full bg-gray-100 dark:bg-gray-800 group-hover:bg-gray-200 group-hover:dark:bg-gray-700">
                 {skill}

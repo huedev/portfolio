@@ -42,7 +42,7 @@ export default function Home({ projects }: Props) {
             priority
           />
         </div>
-        <div className="mb-6 flex sm:flex-row items-center gap-x-3">
+        <div className="mb-6 grid grid-cols-2 sm:grid-cols-none sm:grid-flow-col sm:auto-cols-max items-center gap-3">
           <Button
             href="/documents/resume.pdf"
             label="View Resume"
