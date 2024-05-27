@@ -2,6 +2,7 @@ import { ProjectType } from '@/interfaces'
 import huedevLogo from '@/public/images/huedev.png'
 import matchingLogo from '@/public/images/matching.png'
 import textboxLogo from '@/public/images/textbox.png'
+import gameReviewsLogo from '@/public/images/game_reviews.png'
 
 export const projectData: ProjectType[] = [
   {
@@ -40,5 +41,18 @@ export const projectData: ProjectType[] = [
     ],
     link: 'https://textbox.huedev.me/',
     logo: textboxLogo,
+  },
+  {
+    id: 3,
+    name: 'CS50 Game Reviews',
+    description: 'A game review web application I built as my final project for CS50x.',
+    skills: [
+      'Python',
+      'Flask',
+      'JavaScript',
+      'Tailwind CSS',
+    ],
+    link: 'https://github.com/huedev/game-reviews',
+    logo: gameReviewsLogo,
   },
 ]
